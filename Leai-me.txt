@@ -1,0 +1,7 @@
+﻿1 - Para executar os arquivos altere as variaveis IPSERVE(ip da sua maquina) E PORTSERVE(caso queira ou necessite) nos arquivo "Cliente.c e Servidor.c"
+2 - Caso altere algum arquivo na pasta implementsHeaders execute o seguinde comando(na pasta) para recompilar os arquivos: gcc -c *.c
+3 - Para o funcionamento do servidor é necessario ter instalado o mysql
+    - Execute "CreateDatabase.sql" para cria o banco e as tabelas
+  - Execute "PreencherTable.sql" para preencher as tabelas (opcional)
+4 - Compilar Cliente.c: gcc Cliente.c -o cliente
+5 - Compilar Servidor.c: gcc -L/usr/lib/mysql -lmysqlclient -pthread implementsHeaders/*.o Servidor.c -o servidor
