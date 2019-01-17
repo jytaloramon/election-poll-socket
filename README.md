@@ -20,11 +20,11 @@ Implementar um sistema de pesquisa eleitoral, com formato "cliente -> servidor",
 
 # Instruções
    
-**Para executar os arquivos altere as variaveis IPSERVE(ip da sua maquina) E PORTSERVE(caso queira ou necessite) nos arquivo "Cliente.c e Servidor.c"
+**Para executar os arquivos altere as variaveis IPSERVE(ip da sua maquina) E PORTSERVE(caso queira ou necessite) nos arquivo "Cliente.c e Servidor.c"**
 
-**Caso altere algum arquivo na pasta "implementsHeaders" execute o seguinde comando(na pasta) para recompilar os arquivos: "gcc -c *.c"
+**Caso altere algum arquivo na pasta "implementsHeaders" execute o seguinde comando(na pasta) para recompilar os arquivos: "gcc -c *.c"**
 
-**Para o funcionamento do servidor é necessario ter instalado o mysql
+**Para o funcionamento do servidor é necessario ter instalado o mysql**
 
    - Execute "CreateDatabase.sql" para cria o banco e as tabelas
 
